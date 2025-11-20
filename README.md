@@ -1,10 +1,23 @@
-\# Мой первый проект
+## Проект созданный по макету интернет-магазина Кофе
 
-\## Проект
+### Проект
 
-Этот репозиторий является каркасом для будущего веб-приложения.
+Одностраничный лендинг интернет-магазина кофе с адаптированной вёрсткой под макет:
 
-\## Ссылки
+- Семантическая структура `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Блок с логотипом сайта и корзиной.
+- Присутствует навигация.
+- Блоки (Секция товаров с Кофе):  
+  - «COFFEE BUILD YOUR BASE»,  
+  - «Best Gift For Best Friend GIFTSET», и другие.
+- Добавлен футер.
 
-\- \[Публичная страница на GitHub Pages](https://sixsixsixsixsixsixsixsixsixsixsix.github.io/my-project/)
+### Стек:
+
+- **HTML5**
+
+### Ссылки
+
+- [Публичная страница на GitHub Pages](https://sixsixsixsixsixsixsixsixsixsixsix.github.io/my-project/)
+- [Мой сайт](https://sixsixsixsixsixsixsixsixsixsixsix.github.io/my-project/)
 
