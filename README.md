@@ -18,6 +18,4 @@
 
 ### Ссылки
 
-- [Публичная страница на GitHub Pages](https://sixsixsixsixsixsixsixsixsixsixsix.github.io/my-project/)
 - [Мой сайт](https://sixsixsixsixsixsixsixsixsixsixsix.github.io/my-project/)
-
