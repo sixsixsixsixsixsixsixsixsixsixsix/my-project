@@ -20,3 +20,5 @@
 ### Ссылки
 
 - [Мой сайт](https://sixsixsixsixsixsixsixsixsixsixsix.github.io/my-project/)
+
+<img width="500" height="500" alt="динамический-генератор-qr-кода-онлайн" src="https://github.com/user-attachments/assets/a4d6cde4-5c28-49ae-81e4-12372698bec1" />
