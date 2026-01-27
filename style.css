@@ -58,10 +58,6 @@ header::before{
   pointer-events:none;
 }
 
-/* Логотип слева */
-.logo-image{z-index:2}
-.logo-image img{display:block;width:120px;height:auto}
-
 /* блок навигации справа (flex) */
 .header-cart{
   z-index:2;
@@ -289,34 +285,16 @@ footer{
   padding: 5px;
 }
 
-/* ====== Адаптивность (desktop-first) ====== */
-/* Для ширины <= 1000px — уменьшаем кол-во колонок */
-@media (max-width:1000px){
-  .products-grid{grid-template-columns:repeat(2,1fr)}
-  .products-grid-favorite{grid-template-columns:repeat(1, 1fr)}
-  .products-grid-combo{grid-template-columns:repeat(2,1fr)}
 
-  .coffee-title{
-    font-size:35px;width:60%}
+nav.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.06em;
 }
-
-/* <= 720px — мобильный */
-@media (max-width:720px){
-  header{
-    padding:20px;
-    min-height:360px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-
-  .nav a {
-    font-size: 13px;
-    display: block;          /* превращает ссылку в блочный элемент */
-    padding: 6px 10px;      /* добавляет пространство вокруг текста */
-    background: rgba(0,0,0,0.25); /* лёгкая заливка, можешь поменять */
-    width: 100%;             /* растягивает на всю ширину */
-  }
 
   html, body {
     width: 100%;
@@ -330,19 +308,3 @@ header, footer {
     overflow: hidden;
 }
 
-
-
-  .coffee-title {
-    font-size:25px;
-    color: #9aa3ad;
-    transform:translateX(-50px);
-    
-  }
-  .coffee-title::after{ visibility: hidden;}
-  .products-grid{grid-template-columns:repeat(1,1fr)}
-  .products-grid-favorite{grid-template-columns:repeat(1,1fr)}
-  .products-grid-combo{grid-template-columns:repeat(1,1fr)}
-  .product-card-fav{flex-direction:column;align-items:flex-start}
-  .card-fav{width:100%;height:200px}
-  .product-card-gift{flex-direction:column;align-items:flex-start}
-}
